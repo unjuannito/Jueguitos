@@ -10,47 +10,44 @@ body {
 /* Encabezado */
 header {
     background: linear-gradient(to right, #DC271B, #E47712);
-    padding: 1rem;
-    text-align: center;
-    height: 4em;
+    height: 8vw;
+    display: grid;
+    grid-template-columns: 3fr 21fr 2fr 2fr;
 }
 
-header a{
-    float: right;
-    margin-left: 1%;
+header :last-child {margin-right: 1vw;}
+
+.logo{
+    margin-top: -1px;
+    padding: 0;
+    height: 8vw;
+    width: auto ;
 }
+
+.searchNav{
+    padding: 2vw 0;
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+
+}
+
+.headerIcon{
+    font-size: 3vw;
+    padding: 2vw 0;
+    text-align: right;
+
+}
+
+
+
 
 /* Navegación */
 nav{
-    float: right;
-    margin: 0.5%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 1rem;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* Secciones */
-.destacados, .ofertas {
-    padding: 2rem;
-    border-bottom: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr 1fr 1fr 1fr;
 }
 
 /* Pie de página */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+    
 }
