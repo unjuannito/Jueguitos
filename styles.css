@@ -42,6 +42,51 @@ header :last-child {margin-right: 1vw;}
 }
 
 
+/* Cuerpo */
+#slogan{
+    margin-left: 1%;
+}
+
+#banner{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%;
+    height: 12vw;
+}
+
+#offers{
+    display: grid;
+    grid-template-columns: repeat(5, 19.2%);
+    margin: 2%;
+    margin-right: 2%;
+}
+
+#featured{
+    border-style: solid;
+    border-color: black;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+
+#productsTitle{
+    background-color: rgb(195, 194, 194);
+    width: 20%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 0%;
+    height: 12vw;
+}
+
+#productsTitle h3{
+    text-align: center;
+}
+
+#productsTitle button{
+    color: white;
+    background-color: #E47712;
+}
 
 
 /* Navegación */
@@ -60,6 +105,7 @@ nav :first-child{padding-left: 1vw;}
 footer {
     left: 0;
     margin: 0;
+    padding-top: 2%;
     display: grid;
     grid-template-columns: repeat(5 , 20vw);
     border-top: 3px black solid;
