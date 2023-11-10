@@ -47,16 +47,19 @@ header :last-child {margin-right: 1vw;}
 nav{
     height: 4vw;
     font-size: 3vw;
-    padding: 0.5vw;
+    padding-top: 1vw;
     display: grid;
     grid-template-columns: 1fr 20fr 1fr 1fr 1fr 1fr;
+    border-bottom: 0.1vw solid;
 }
 
 /* Pie de página */
 footer {
-    margin-bottom: 0;
+    left: 0;
+    margin: 0;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(1, 10vw);
+    border-top: 3px black solid;
 }
 
 footer a{
@@ -66,6 +69,9 @@ footer a{
 
 footer span{
     font-weight: bold;
+}
+footer select{
+    width: 100px;
 }
 
 footer .porqueComprar{
