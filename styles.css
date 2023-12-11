@@ -88,6 +88,11 @@ header :last-child {margin-right: 1vw;}
     background-color: #E47712;
 }
 
+video{
+    width: 50%;
+    margin-left: 25%;
+}
+
 
 /* Navegación */
 nav{
