@@ -90,6 +90,7 @@ Usando la Herramienta "Efectos" de Audacity
 El audio que hemos usado es Better Days, de Benjamin Tissot
 
 ## Banner
+(Importante) se necesita un servidor web para poder verse ya sea apache o live server o cualquier otro.
 Hemos usado la app google web designer, hemos creado una plantilla nueva de 900px de ancho y 250px de alto, hemos cambiado el color del fondo del banner añadiendo un gradiante, hemos añadido un logo a la izquierda y luego a l a derecha hemos puesto textos, estos textos se van intercambiando a traves de la pestaña de animacion.
 
 ## Extra
