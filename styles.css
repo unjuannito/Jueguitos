@@ -90,7 +90,7 @@ header :last-child {margin-right: 1vw;}
 
 video{
     width: 50%;
-    margin-left: 25%;
+    
 }
 
 
@@ -152,4 +152,10 @@ footer .final{
     display: grid;
     grid-template-rows: repeat(9, 4vh);
 
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    
 }

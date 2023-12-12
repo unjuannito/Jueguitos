@@ -61,4 +61,29 @@
 
     Cuadrículas para organizar diferentes secciones del pie de página utilizando Grid.
 
-##
+## Imagenes
+Imagen 1
+Hemos recortaso al "paisano" usando la herramienta "borrador de objetos" del editor de fotos de Samsung.
+Para la marca de agua hemos usado el editor online "photopea".
+
+Imagen 2
+Tanto para el efecto como para la marca de agua hemos utilizado el editor online "photopea"
+Hemos elegido el efecto "ruido" lo que hace que parezca que tiene grano de pelicula a traves de la pestaña de filtros, filtros de ruido.
+
+Imagen 3
+Tanto para el efecto como para la marca de agua hemos usado tambien photopea
+Hemos elegido ajustar los color para ponerlo blanco y negro a traves de la pestaña de filtros 
+
+## Video 
+Hemos usado el editor de vídeo "Microsoft Clipchamp" 
+Hemos recortado el video y hemos añadido los efectos "pulso" y "fallo".
+
+## Audio
+(Importante) El audio se encuentra en el footer, abajo de la pagina web a la derecha
+
+Hemos añadido los efectos:
+-Distorsión
+-Graves y Agudos
+Usando la Herramienta "Efectos" de Audacity
+
+El audio que usé es Better Days, de Benjamin Tissot
