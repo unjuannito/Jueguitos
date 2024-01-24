@@ -43,15 +43,8 @@ header :last-child {margin-right: 1vw;}
 
 
 /* Cuerpo */
-#slogan{
+.slogan{
     margin-left: 1%;
-}
-
-#banner{
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 96%;
-    height: 12vw;
 }
 
 #offers{
@@ -61,32 +54,6 @@ header :last-child {margin-right: 1vw;}
     margin-right: 2%;
 }
 
-#featured{
-    border-style: solid;
-    border-color: black;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    
-}
-
-#productsTitle{
-    background-color: rgb(195, 194, 194);
-    width: 20%;
-    padding-left: 2%;
-    padding-bottom: 1%;
-    padding-top: 0%;
-    height: 12vw;
-}
-
-#productsTitle h3{
-    text-align: center;
-}
-
-#productsTitle button{
-    color: white;
-    background-color: #E47712;
-}
 
 video{
     width: 50%;
@@ -124,6 +91,7 @@ footer a{
 footer span{
     font-weight: bold;
 }
+
 footer select{
     width: 100px;
 }
