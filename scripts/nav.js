@@ -15,11 +15,16 @@ $(document).ready(function () {
             $(this).stop().slideUp(200);
         }
     );
+
+
+    $("nav a").hover(function () {
+        $(this).css("position", "relative").append("<div class='underline'></div>");
+        $(".underline").animate({ width: "100%" }, 300);
+    }, function () {
+        $(".underline").animate({ width: "0" }, 300, function () {
+            $(this).remove();
+        });
+    });
 });
 
-$("nav a").hover(function () {
-    $(this).css("border-bottom", "2px solid #000");
-    $(this).css("transition", "border-bottom 0.5s ease-in-out");
-}, function () {
-    $(this).css("border-bottom", "none");
-});
+
