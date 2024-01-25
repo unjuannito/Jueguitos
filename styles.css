@@ -15,26 +15,28 @@ header {
     display: grid;
     grid-template-columns: 3fr 21fr 2fr 2fr;
     border-bottom: 10px;
-    
+
 }
 
-header :last-child {margin-right: 1vw;}
+header :last-child {
+    margin-right: 1vw;
+}
 
-.logo{
+.logo {
     margin-top: -1px;
     padding: 0;
     height: 8vw;
-    width: auto ;
+    width: auto;
 }
 
-.searchNav{
+.searchNav {
     padding: 2vw 0;
     display: grid;
     grid-template-columns: 2fr 6fr 1fr;
 
 }
 
-.headerIcon{
+.headerIcon {
     font-size: 3vw;
     padding: 2vw 0;
     text-align: right;
@@ -43,26 +45,77 @@ header :last-child {margin-right: 1vw;}
 
 
 /* Cuerpo */
-.slogan{
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan {
     margin-left: 1%;
 }
 
-#offers{
-    display: grid;
-    grid-template-columns: repeat(5, 19.2%);
-    margin: 2%;
-    margin-right: 2%;
+/* Carrusel */
+.carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.slide {
+    width: 15vw;
+    height: 20vw;
+}
+
+/* Scroll */
+.scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10vh;
+    gap: 3vw;
+    transform: translateX(-100%);
+    transition: transform 1s ease, opacity 1s ease;
+    background-color: rgb(238, 238, 238);
+    border: solid black;
+    border-width: 0.1vw;
+    padding: 1vw;
+}
+
+.scroll img {
+    width: 30vw;
+    height: auto;
+}
+
+.scroll h1 {
+    font-size: 3vw;
+}
+
+.scroll button {
+    width: 6vw;
+    height: 6vh;
+    background-color: #E47712;
+    color: white;
+}
+
+.scroll div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll p {
+    width: 23vw;
+    line-height: 4vh;
 }
 
 
-video{
-    width: 50%;
-    
-}
+
 
 
 /* Navegación */
-nav{
+nav {
     height: 4vw;
     font-size: 3vw;
     padding-top: 1vw;
@@ -71,7 +124,9 @@ nav{
     border-bottom: 0.1vw solid;
 }
 
-nav :first-child{padding-left: 1vw;}
+nav :first-child {
+    padding-left: 1vw;
+}
 
 /* Pie de página */
 footer {
@@ -79,51 +134,51 @@ footer {
     margin: 0;
     padding-top: 2%;
     display: grid;
-    grid-template-columns: repeat(5 , 20vw);
+    grid-template-columns: repeat(5, 20vw);
     border-top: 3px black solid;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: black;
 }
 
-footer span{
+footer span {
     font-weight: bold;
 }
 
-footer select{
+footer select {
     width: 100px;
 }
 
-footer .porqueComprar{
+footer .porqueComprar {
     display: grid;
     grid-template-rows: repeat(7, 4vh);
 }
 
-footer .quienesSomos{
+footer .quienesSomos {
     display: grid;
     grid-template-rows: repeat(9, 4vh);
 }
 
-footer .contactar{
+footer .contactar {
     display: grid;
     grid-template-rows: repeat(9, 4vh);
 }
 
-footer .otros{
+footer .otros {
     display: grid;
     grid-template-rows: repeat(9, 4vh);
 }
 
-footer .final{
+footer .final {
     display: grid;
     grid-template-rows: repeat(9, 4vh);
 
 }
 
-section{
+section {
     display: flex;
     justify-content: space-between;
-    
+
 }
