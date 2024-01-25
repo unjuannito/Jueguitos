@@ -1,0 +1,112 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    background-color: #f7f7f2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Encabezado */
+header {
+    box-sizing:border-box;
+    width: 100vw;
+    background: linear-gradient(to right, #DC271B, #E47712);
+    height: 8vw;
+    display: grid;
+    grid-template-columns: 3fr 21fr 2fr 2fr;
+    border-bottom: 10px;
+    width: 100vw;
+    
+}
+
+header :last-child {margin-right: 1vw;}
+
+.logo{
+    margin-top: -1px;
+    padding: 0;
+    height: 8vw;
+    width: auto ;
+}
+
+.searchNav{
+    padding: 2vw 0;
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr;
+
+}
+
+.headerIcon{
+    font-size: 3vw;
+    padding: 2vw 0;
+    text-align: right;
+
+}
+
+main{
+    min-height: 300vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cuerpo */
+.slogan{
+    margin-left: 1vw;
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    left: 0;
+    margin: 0;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(5 , 20vw);
+    border-top: 3px black solid;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer span{
+    font-weight: bold;
+}
+
+footer select{
+    width: 100px;
+}
+
+footer .porqueComprar{
+    display: grid;
+    grid-template-rows: repeat(7, 4vh);
+}
+
+footer .quienesSomos{
+    display: grid;
+    grid-template-rows: repeat(9, 4vh);
+}
+
+footer .contactar{
+    display: grid;
+    grid-template-rows: repeat(9, 4vh);
+}
+
+footer .otros{
+    display: grid;
+    grid-template-rows: repeat(9, 4vh);
+}
+
+footer .final{
+    display: grid;
+    grid-template-rows: repeat(9, 4vh);
+
+}

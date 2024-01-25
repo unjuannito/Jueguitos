@@ -1,0 +1,13 @@
+/* Carrusel */
+.carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 7vh;
+    margin-top: 2vh;
+}
+
+.slide {
+    width: 15vw;
+    height: 20vw;
+}
