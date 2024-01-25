@@ -6,15 +6,24 @@ body {
     margin: 0;
     padding: 0;
     right: 0;
+    background-color: #f7f7f2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Encabezado */
 header {
+    box-sizing:border-box;
+    width: 100vw;
     background: linear-gradient(to right, #DC271B, #E47712);
     height: 8vw;
     display: grid;
     grid-template-columns: 3fr 21fr 2fr 2fr;
     border-bottom: 10px;
+    width: 100vw;
     
 }
 
@@ -41,37 +50,56 @@ header :last-child {margin-right: 1vw;}
 
 }
 
+main{
+    min-height: 300vh;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Cuerpo */
 .slogan{
-    margin-left: 1%;
+    margin-left: 1vw;
 }
-
-#offers{
-    display: grid;
-    grid-template-columns: repeat(5, 19.2%);
-    margin: 2%;
-    margin-right: 2%;
-}
-
-
-video{
-    width: 50%;
-    
-}
-
 
 /* Navegación */
 nav{
-    height: 4vw;
-    font-size: 3vw;
-    padding-top: 1vw;
+    position: sticky;
+    margin: 1vw;
+    top: 1vw;
+    box-shadow: 0px 0px 10px 5px #8888889c;
+
     display: grid;
-    grid-template-columns: 1fr 20fr 1fr 1fr 1fr 1fr;
-    border-bottom: 0.1vw solid;
+    grid-template-columns: 21fr 1fr 1fr 1fr 1fr;
+    height: 7vh;
+    width: 90vw;
+    align-content: center;
+    padding: 1vh 2vh;
+    font-size: 4vh;
+
+
+    background-color: white;
 }
 
-nav :first-child{padding-left: 1vw;}
+.dropdown-menu{
+    list-style-type: none;
+
+    margin: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px 5px #8888889c;
+    padding: 4vh 4vw ;
+    display: none; /*Se pondra luego a flex*/
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+    
+
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: #000;
+
+}
 
 /* Pie de página */
 footer {
@@ -120,10 +148,4 @@ footer .final{
     display: grid;
     grid-template-rows: repeat(9, 4vh);
 
-}
-
-section{
-    display: flex;
-    justify-content: space-between;
-    
 }
