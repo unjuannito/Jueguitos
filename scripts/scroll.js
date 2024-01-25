@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".scroll").css({ opacity: 1, transform: "translateX(-100%)" });
+    $(".scroll").css({ opacity: 1, transform: "translateX(-200%)" });
 
     $(window).scroll(function () {
         $(".scroll").each(function (index) {

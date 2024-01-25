@@ -59,6 +59,7 @@ main{
 /* Cuerpo */
 .slogan{
     margin-left: 1vw;
+    text-align: center;
 }
 
 /* Navegación */
@@ -85,7 +86,8 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 5vh;
+    margin-bottom: 7vh;
+    margin-top: 2vh;
 }
 
 .slide {
@@ -106,6 +108,7 @@ nav{
     border: solid black;
     border-width: 0.1vw;
     padding: 1vw;
+    z-index: -1;
 }
 
 .scroll img {
