@@ -1,6 +1,14 @@
 # Jueguitos
 
-## Estilos Generales
+## Introduccion
+    Hemos decidido separar los componentes en cinco partes:
+        -Main
+        -Carousel
+        -MicroInteractions
+        -Nav
+        -Scroll
+
+## Main
     Body:
     Utiliza la propiedad font-family para establecer la fuente del cuerpo de la página como Arial, sans-serif.
     Se emplea la propiedad margin y padding con valores de cero para eliminar márgenes y rellenos predeterminados.
@@ -40,9 +48,7 @@
 
     Ancho específico y centrado.
     Navegación
-    Nav:
-    Altura y tamaño de fuente específicos.
-    Cuadrícula para organizar elementos de navegación utilizando Grid.
+
     Pie de Página
     Footer:
 
@@ -61,37 +67,24 @@
 
     Cuadrículas para organizar diferentes secciones del pie de página utilizando Grid.
 
-## Imagenes
-Desierto
-Hemos recortaso al "paisano" usando la herramienta "borrador de objetos" del editor de fotos de Samsung.
-Para la marca de agua hemos usado el editor online "photopea".
+## Carousel
+Funcionalidad del Script
+El script está diseñado para crear un carrusel de imágenes que se muestra en un intervalo regular. 
+Se estila con la tecnologia Flex
+Hay tres carruseles
 
-Sequia 1
-Tanto para el efecto como para la marca de agua hemos usado tambien photopea
-Hemos elegido ajustar los color para ponerlo blanco y negro a traves de la pestaña de Imagen -> ajustes -> blanco y negro. 
+## MiccroInteractions
+El script utiliza jQuery para agregar microinteracciones a las imágenes y botones en el documento.
+Las imagenes se ven mas grandes y los botones tiene una animacion en la que al clickarlos se hacen mas pequeños y luego vuelven a su tamaño original
+Estilado con la tecnologia flex
 
+## Nav
+El script utiliza jQuery para agregar interactividad al menú de navegación y a los elementos de enlace.
+Los enlaces en el nav tienen una animacion de subrallado
+Al tener el cursor encima del icono de 3 barras se desplega un menu con enlaces a mas servicios y productos
+Estilado con tecnologia flex y grid
 
-Sequia 2
-Tanto para el efecto como para la marca de agua hemos utilizado el editor online "photopea"
-Hemos elegido el efecto "ruido" lo que hace que parezca que tiene grano de pelicula a traves de la pestaña de filtros, filtros de ruido.
-
-## Video 
-Hemos usado el editor de vídeo "Microsoft Clipchamp" 
-Hemos recortado el video y hemos añadido los efectos "pulso" y "fallo".
-
-## Audio
-(Importante) El audio se encuentra en el footer, abajo de la pagina web a la derecha
-
-Hemos añadido los efectos:
--Distorsión
--Graves y Agudos
-Usando la Herramienta "Efectos" de Audacity
-
-El audio que hemos usado es Better Days, de Benjamin Tissot
-
-## Banner
-(Importante) se necesita un servidor web para poder verse ya sea apache o live server o cualquier otro.
-Hemos usado la app google web designer, hemos creado una plantilla nueva de 900px de ancho y 250px de alto, hemos cambiado el color del fondo del banner añadiendo un gradiante, hemos añadido un logo a la izquierda y luego a l a derecha hemos puesto textos, estos textos se van intercambiando a traves de la pestaña de animacion.
-
-## Extra
-Hemos introducido el contenido multimedia necesario. El proyecto ocupa poco mas de 40 mb sin comprimir debido al contenido multimedia.
+## Scroll
+El script utiliza jQuery para aplicar animaciones a elementos con la clase .scroll cuando se desplaza hacia abajo en la página. 
+Los elemnto scroll aparecen desde la izquierda y se situan en el centro
+Estilado con tecnologia flex
