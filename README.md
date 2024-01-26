@@ -31,7 +31,7 @@
 
     Alineación y margen específicos.
     Banner:
-    
+
     Margen y tamaño específicos.
     Offers:
 
@@ -88,3 +88,6 @@ Estilado con tecnologia flex y grid
 El script utiliza jQuery para aplicar animaciones a elementos con la clase .scroll cuando se desplaza hacia abajo en la página. 
 Los elemnto scroll aparecen desde la izquierda y se situan en el centro
 Estilado con tecnologia flex
+
+## Github
+https://github.com/unjuannito/Jueguitos
