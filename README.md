@@ -31,7 +31,7 @@
 
     Alineación y margen específicos.
     Banner:
-
+    
     Margen y tamaño específicos.
     Offers:
 
