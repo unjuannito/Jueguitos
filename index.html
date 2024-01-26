@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/scroll.css">
-    <link rel="icon" href="images/logo.png">
-    <title>Jueguitos</title>
+    <link rel="stylesheet" href="styles/carousel.css">
+
+    <!-- scripts -->
     <script src="https://kit.fontawesome.com/8743873c99.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/carousel.js"></script>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/microinteractions.js"></script>
+
+    <link rel="icon" href="images/logo.png">
+    <title>Jueguitos</title>
 
 
 </head>
@@ -33,15 +43,15 @@
 
     <nav>
         <div>
-            <script src="scripts/nav.js"></script>
             <span class="menu"><i class="fa-solid fa-bars" style="color: #000000;"></i></span>
             <ul class="dropdown-menu">
-                <li><a href="">Gaming</a></li>
-                <li><a href="">Ordenadores</a></li>
-                <li><a href="">Consoleros</a></li>
-                <li><a href="">Perifericos</a></li>
-                <li><a href="">Hogar</a></li>
-                <li><a href="">Montador de PCs</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">Ordenadores</a></li>
+                <li><a href="#">Consoleros</a></li>
+                <li><a href="#">Perifericos</a></li>
+                <li><a href="#">Hogar</a></li>
+                <li><a href="#">Telefonía</a></li>
+                <li><a href="#">Montador de PCs</a></li>
             </ul>
         </div>
         <a href=""><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
@@ -52,14 +62,17 @@
 
     <main>
 
-        <p class="slogan"><strong>Juegitos</strong> tu tienda de Juegos Favorita</p>
+        <h2 class="slogan"><strong>Juegitos</strong> tu tienda de Juegos Favorita</h2>
 
-        <script src="scripts/carousel.js"></script>
         <section class="carousel">
-            <img class="slide" src="images/carrusel/juego5.png" alt="Imagen 1">
+            <h2>Novedades y promociones</h2>
+            <div>
+                <img class="slide" src="images/carrusel/juego5.png" alt="Imagen 1">
+                <img class="slide" src="images/carrusel/juego5.png" alt="Imagen 1">
+                <img class="slide" src="images/carrusel/juego5.png" alt="Imagen 1">    
+            </div>
         </section>
 
-        <script src="scripts/scroll.js"></script>
         <section class="scroll">
             <div>
                 <h1>Jueguitos.com</h1>

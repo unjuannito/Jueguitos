@@ -1,13 +1,24 @@
 /* Carrusel */
 .carousel {
+    background-color:  rgb(238, 238, 238);
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-bottom: 7vh;
-    margin-top: 2vh;
+
+    padding: 5vh;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 1vh;
+}
+.carousel div{
+    display: flex;
+    gap: 5vw;
+    padding: 1vw;
 }
 
 .slide {
-    width: 15vw;
-    height: 20vw;
+    padding-bottom: 2vh;
+    width: auto;
+    height: 40vh;
 }

@@ -50,14 +50,21 @@ header :last-child {margin-right: 1vw;}
 
 }
 
+
 main{
-    min-height: 300vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+section{
+    width: 60vw;
 }
 
 /* Cuerpo */
 .slogan{
+    font-weight: normal;
     margin-left: 1vw;
     text-align: center;
 }
